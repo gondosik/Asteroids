@@ -5,8 +5,8 @@
 #include <vector>
 
 /* SDL headers */
-#include <SDL.h>
-#include "SDL_ttf.h"
+#include "libraries/SDL.h"
+#include "libraries/SDL_ttf.h"
 
 /* Button structure */
 typedef struct {

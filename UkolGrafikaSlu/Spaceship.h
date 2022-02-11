@@ -6,7 +6,7 @@
 #include <vector>
 
 /* SDL headers */
-#include <SDL.h>
+#include <libraries/SDL.h>
 
 /* Game headers */
 #include "Asteroid.h"

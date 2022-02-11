@@ -6,7 +6,7 @@
 #include <utility>
 
 /* STL headers */
-#include <SDL.h>
+#include <libraries/SDL.h>
 
 /* Game headers*/
 #include "Commons.h"

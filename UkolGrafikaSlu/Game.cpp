@@ -10,9 +10,9 @@
 #include <iostream>
 
 /* SDL headers */
-#include "SDL.h"
-#include "SDL_timer.h"
-#include "SDL_ttf.h"
+#include "libraries/SDL.h"
+#include "libraries/SDL_timer.h"
+#include "libraries/SDL_ttf.h"
 
 /* Game headers */
 #include "Asteroid.h"
@@ -73,7 +73,7 @@ int main(int argc, char** args) {
 	} state = STATE_IN_MENU;
 
 	/* General structures and variables */
-	char font_path[] = "FreeSans.ttf";
+	char font_path[] = "fonts/FreeSans.ttf";
 	bool close_request = false;
 	bool info_request = false;
 	int frames = 0;

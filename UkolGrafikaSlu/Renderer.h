@@ -1,6 +1,6 @@
 #pragma once
 /* SDL headers */
-#include "SDL.h"
+#include "libraries/SDL.h"
 
 class Renderer
 {
